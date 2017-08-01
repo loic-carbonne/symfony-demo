@@ -1,0 +1,322 @@
+# Logfile created on 2017-08-01 22:04:21 +0200 by logger.rb/v1.2.7
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:04:21 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [35f1c4f0] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [35f1c4f0] Command: /usr/bin/env mkdir -p /tmp
+  INFO [35f1c4f0] Finished in 0.695 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 100.0%
+  INFO [812d07cd] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh as ubuntu@62.4.19.91
+ DEBUG [812d07cd] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh
+  INFO [812d07cd] Finished in 0.044 seconds with exit status 0 (successful).
+  INFO [242c5607] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [242c5607] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-loic.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [242c5607] 	Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+ DEBUG [242c5607] 	Permission denied (publickey).
+ DEBUG [242c5607] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:07:49 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [8986ecca] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [8986ecca] Command: /usr/bin/env mkdir -p /tmp
+  INFO [8986ecca] Finished in 0.781 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 100.0%
+  INFO [9e9cc677] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh as ubuntu@62.4.19.91
+ DEBUG [9e9cc677] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh
+  INFO [9e9cc677] Finished in 0.049 seconds with exit status 0 (successful).
+  INFO [9f0b0dd5] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [9f0b0dd5] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-loic.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [9f0b0dd5] 	Warning: Permanently added the RSA host key for IP address '192.30.253.112' to the list of known hosts.
+ DEBUG [9f0b0dd5] 	Permission denied (publickey).
+ DEBUG [9f0b0dd5] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:10:22 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [b784987f] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [b784987f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [b784987f] Finished in 0.431 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 100.0%
+  INFO [e6cb0039] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh as ubuntu@62.4.19.91
+ DEBUG [e6cb0039] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh
+  INFO [e6cb0039] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [e5dc9e8d] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [e5dc9e8d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-loic.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [e5dc9e8d] 	Permission denied (publickey).
+ DEBUG [e5dc9e8d] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:15:16 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [9f479b7b] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [9f479b7b] Command: /usr/bin/env mkdir -p /tmp
+  INFO [9f479b7b] Finished in 0.358 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 100.0%
+  INFO [e116ce80] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh as ubuntu@62.4.19.91
+ DEBUG [e116ce80] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh
+  INFO [e116ce80] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [958eed5d] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [958eed5d] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-loic.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [958eed5d] 	Permission denied (publickey).
+ DEBUG [958eed5d] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:16:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e17ff4eb] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [e17ff4eb] Command: /usr/bin/env mkdir -p /tmp
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:17:23 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [84e9d9dd] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [84e9d9dd] Command: /usr/bin/env mkdir -p /tmp
+  INFO [84e9d9dd] Finished in 0.353 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-loic.sh 100.0%
+  INFO [f39f35a1] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh as ubuntu@62.4.19.91
+ DEBUG [f39f35a1] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-loic.sh
+  INFO [f39f35a1] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [6dfcddb2] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [6dfcddb2] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-loic.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [6dfcddb2] 	Permission denied (publickey).
+ DEBUG [6dfcddb2] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:19:33 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [c873f153] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [c873f153] Command: /usr/bin/env mkdir -p /tmp
+  INFO [c873f153] Finished in 0.406 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-.sh 100.0%
+  INFO [8335a43a] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh as ubuntu@62.4.19.91
+ DEBUG [8335a43a] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh
+  INFO [8335a43a] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [1cbdb258] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [1cbdb258] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [1cbdb258] 	Permission denied (publickey).
+ DEBUG [1cbdb258] 	fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:28:20 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3d9160a1] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [3d9160a1] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3d9160a1] Finished in 0.382 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-.sh 100.0%
+  INFO [cd87ce87] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh as ubuntu@62.4.19.91
+ DEBUG [cd87ce87] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh
+  INFO [cd87ce87] Finished in 0.020 seconds with exit status 0 (successful).
+  INFO [434dd45e] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [434dd45e] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [434dd45e] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63	HEAD
+  INFO [434dd45e] Finished in 1.134 seconds with exit status 0 (successful).
+  INFO [8aa64748] Running /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases as ubuntu@62.4.19.91
+ DEBUG [8aa64748] Command: /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases
+ DEBUG [8aa64748] 	mkdir: 
+ DEBUG [8aa64748] 	cannot create directory '/var/www/symfony-demo'
+ DEBUG [8aa64748] 	: Permission denied
+ DEBUG [8aa64748] 	
+ DEBUG [8aa64748] 	mkdir: 
+ DEBUG [8aa64748] 	cannot create directory '/var/www/symfony-demo'
+ DEBUG [8aa64748] 	: Permission denied
+ DEBUG [8aa64748] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:30:06 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [3d1c8eb3] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [3d1c8eb3] Command: /usr/bin/env mkdir -p /tmp
+  INFO [3d1c8eb3] Finished in 0.483 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-.sh 100.0%
+  INFO [78948f51] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh as ubuntu@62.4.19.91
+ DEBUG [78948f51] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh
+  INFO [78948f51] Finished in 0.029 seconds with exit status 0 (successful).
+  INFO [e1fefb1c] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [e1fefb1c] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [e1fefb1c] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63	HEAD
+  INFO [e1fefb1c] Finished in 3.710 seconds with exit status 0 (successful).
+  INFO [1be078e3] Running /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases as ubuntu@62.4.19.91
+ DEBUG [1be078e3] Command: /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases
+ DEBUG [1be078e3] 	mkdir: 
+ DEBUG [1be078e3] 	cannot create directory '/var/www/symfony-demo/shared'
+ DEBUG [1be078e3] 	: Permission denied
+ DEBUG [1be078e3] 	
+ DEBUG [1be078e3] 	mkdir: 
+ DEBUG [1be078e3] 	cannot create directory '/var/www/symfony-demo/releases'
+ DEBUG [1be078e3] 	: Permission denied
+ DEBUG [1be078e3] 	
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:30:53 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [e7e6175f] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [e7e6175f] Command: /usr/bin/env mkdir -p /tmp
+  INFO [e7e6175f] Finished in 0.378 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-.sh 100.0%
+  INFO [fc18ff9b] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh as ubuntu@62.4.19.91
+ DEBUG [fc18ff9b] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh
+  INFO [fc18ff9b] Finished in 0.027 seconds with exit status 0 (successful).
+  INFO [7cd675a8] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [7cd675a8] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [7cd675a8] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63	HEAD
+  INFO [7cd675a8] Finished in 1.207 seconds with exit status 0 (successful).
+  INFO [3672a702] Running /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases as ubuntu@62.4.19.91
+ DEBUG [3672a702] Command: /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases
+  INFO [3672a702] Finished in 0.046 seconds with exit status 0 (successful).
+ DEBUG [9d98f6b2] Running [ -f /var/www/symfony-demo/current/REVISION ] as ubuntu@62.4.19.91
+ DEBUG [9d98f6b2] Command: [ -f /var/www/symfony-demo/current/REVISION ]
+ DEBUG [9d98f6b2] Finished in 0.029 seconds with exit status 1 (failed).
+ DEBUG [f321af8c] Running [ -f /var/www/symfony-demo/repo/HEAD ] as ubuntu@62.4.19.91
+ DEBUG [f321af8c] Command: [ -f /var/www/symfony-demo/repo/HEAD ]
+ DEBUG [f321af8c] Finished in 0.028 seconds with exit status 1 (failed).
+ DEBUG [b28de6a4] Running if test ! -d /var/www/symfony-demo; then echo "Directory does not exist '/var/www/symfony-demo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [b28de6a4] Command: if test ! -d /var/www/symfony-demo; then echo "Directory does not exist '/var/www/symfony-demo'" 1>&2; false; fi
+ DEBUG [b28de6a4] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [8cffd240] Running /usr/bin/env git clone --mirror git@github.com:loic-carbonne/symfony-demo.git /var/www/symfony-demo/repo as ubuntu@62.4.19.91
+ DEBUG [8cffd240] Command: cd /var/www/symfony-demo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git clone --mirror git@github.com:loic-carbonne/symfony-demo.git /var/www/symfony-demo/repo )
+ DEBUG [8cffd240] 	Cloning into bare repository '/var/www/symfony-demo/repo'...
+  INFO [8cffd240] Finished in 3.859 seconds with exit status 0 (successful).
+ DEBUG [f5ce02cd] Running if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [f5ce02cd] Command: if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi
+ DEBUG [f5ce02cd] Finished in 0.034 seconds with exit status 0 (successful).
+  INFO [34bde362] Running /usr/bin/env git remote set-url origin git@github.com:loic-carbonne/symfony-demo.git as ubuntu@62.4.19.91
+ DEBUG [34bde362] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git remote set-url origin git@github.com:loic-carbonne/symfony-demo.git )
+  INFO [34bde362] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [e06fd955] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.91
+ DEBUG [e06fd955] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [e06fd955] 	Fetching origin
+  INFO [e06fd955] Finished in 1.238 seconds with exit status 0 (successful).
+ DEBUG [a4a89eb8] Running if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [a4a89eb8] Command: if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi
+ DEBUG [a4a89eb8] Finished in 0.024 seconds with exit status 0 (successful).
+  INFO [43737536] Running /usr/bin/env mkdir -p /var/www/symfony-demo/releases/20170801203055 as ubuntu@62.4.19.91
+ DEBUG [43737536] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env mkdir -p /var/www/symfony-demo/releases/20170801203055 )
+  INFO [43737536] Finished in 0.037 seconds with exit status 0 (successful).
+  INFO [e38d6dc4] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/symfony-demo/releases/20170801203055 as ubuntu@62.4.19.91
+ DEBUG [e38d6dc4] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/symfony-demo/releases/20170801203055 )
+  INFO [e38d6dc4] Finished in 0.108 seconds with exit status 0 (successful).
+ DEBUG [eca6f8c1] Running if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [eca6f8c1] Command: if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi
+ DEBUG [eca6f8c1] Finished in 0.056 seconds with exit status 0 (successful).
+ DEBUG [699a03e6] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@62.4.19.91
+ DEBUG [699a03e6] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [699a03e6] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63
+ DEBUG [699a03e6] Finished in 0.035 seconds with exit status 0 (successful).
+ DEBUG [6413d279] Running if test ! -d /var/www/symfony-demo/releases/20170801203055; then echo "Directory does not exist '/var/www/symfony-demo/releases/20170801203055'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [6413d279] Command: if test ! -d /var/www/symfony-demo/releases/20170801203055; then echo "Directory does not exist '/var/www/symfony-demo/releases/20170801203055'" 1>&2; false; fi
+ DEBUG [6413d279] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [ee2b82dc] Running /usr/bin/env echo "d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63" >> REVISION as ubuntu@62.4.19.91
+ DEBUG [ee2b82dc] Command: cd /var/www/symfony-demo/releases/20170801203055 && /usr/bin/env echo "d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63" >> REVISION
+  INFO [ee2b82dc] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [5ed4cf6b] Running /usr/bin/env ln -s /var/www/symfony-demo/releases/20170801203055 /var/www/symfony-demo/releases/current as ubuntu@62.4.19.91
+ DEBUG [5ed4cf6b] Command: /usr/bin/env ln -s /var/www/symfony-demo/releases/20170801203055 /var/www/symfony-demo/releases/current
+  INFO [5ed4cf6b] Finished in 0.022 seconds with exit status 0 (successful).
+  INFO [4138913c] Running /usr/bin/env mv /var/www/symfony-demo/releases/current /var/www/symfony-demo as ubuntu@62.4.19.91
+ DEBUG [4138913c] Command: /usr/bin/env mv /var/www/symfony-demo/releases/current /var/www/symfony-demo
+  INFO [4138913c] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [e8bf5bee] Running /usr/bin/env ls -x /var/www/symfony-demo/releases as ubuntu@62.4.19.91
+ DEBUG [e8bf5bee] Command: /usr/bin/env ls -x /var/www/symfony-demo/releases
+ DEBUG [e8bf5bee] 	20170801203055
+ DEBUG [e8bf5bee] Finished in 0.072 seconds with exit status 0 (successful).
+ DEBUG [dafc4e6b] Running if test ! -d /var/www/symfony-demo/releases; then echo "Directory does not exist '/var/www/symfony-demo/releases'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [dafc4e6b] Command: if test ! -d /var/www/symfony-demo/releases; then echo "Directory does not exist '/var/www/symfony-demo/releases'" 1>&2; false; fi
+ DEBUG [dafc4e6b] Finished in 0.026 seconds with exit status 0 (successful).
+  INFO [5cb8c18f] Running /usr/bin/env echo "Branch master (at d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63) deployed as release 20170801203055 by " >> /var/www/symfony-demo/revisions.log as ubuntu@62.4.19.91
+ DEBUG [5cb8c18f] Command: cd /var/www/symfony-demo/releases && /usr/bin/env echo "Branch master (at d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63) deployed as release 20170801203055 by " >> /var/www/symfony-demo/revisions.log
+  INFO [5cb8c18f] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO ---------------------------------------------------------------------------
+  INFO START 2017-08-01 22:32:01 +0200 cap production deploy
+  INFO ---------------------------------------------------------------------------
+  INFO [af7c3ab7] Running /usr/bin/env mkdir -p /tmp as ubuntu@62.4.19.91
+ DEBUG [af7c3ab7] Command: /usr/bin/env mkdir -p /tmp
+  INFO [af7c3ab7] Finished in 0.374 seconds with exit status 0 (successful).
+ DEBUG Uploading /tmp/git-ssh-symfony-demo-production-.sh 0.0%
+  INFO Uploading /tmp/git-ssh-symfony-demo-production-.sh 100.0%
+  INFO [eda7adad] Running /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh as ubuntu@62.4.19.91
+ DEBUG [eda7adad] Command: /usr/bin/env chmod 700 /tmp/git-ssh-symfony-demo-production-.sh
+  INFO [eda7adad] Finished in 0.028 seconds with exit status 0 (successful).
+  INFO [cfd10a90] Running /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD as ubuntu@62.4.19.91
+ DEBUG [cfd10a90] Command: ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git ls-remote git@github.com:loic-carbonne/symfony-demo.git HEAD )
+ DEBUG [cfd10a90] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63	HEAD
+  INFO [cfd10a90] Finished in 3.012 seconds with exit status 0 (successful).
+  INFO [8399625e] Running /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases as ubuntu@62.4.19.91
+ DEBUG [8399625e] Command: /usr/bin/env mkdir -p /var/www/symfony-demo/shared /var/www/symfony-demo/releases
+  INFO [8399625e] Finished in 0.023 seconds with exit status 0 (successful).
+ DEBUG [23481c21] Running [ -f /var/www/symfony-demo/current/REVISION ] as ubuntu@62.4.19.91
+ DEBUG [23481c21] Command: [ -f /var/www/symfony-demo/current/REVISION ]
+ DEBUG [23481c21] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG [6a69a463] Running /usr/bin/env cat /var/www/symfony-demo/current/REVISION 2>/dev/null as ubuntu@62.4.19.91
+ DEBUG [6a69a463] Command: /usr/bin/env cat /var/www/symfony-demo/current/REVISION 2>/dev/null
+ DEBUG [6a69a463] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63
+ DEBUG [6a69a463] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG [cde46021] Running [ -f /var/www/symfony-demo/repo/HEAD ] as ubuntu@62.4.19.91
+ DEBUG [cde46021] Command: [ -f /var/www/symfony-demo/repo/HEAD ]
+ DEBUG [cde46021] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO The repository mirror is at /var/www/symfony-demo/repo
+ DEBUG [feebf04f] Running if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [feebf04f] Command: if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi
+ DEBUG [feebf04f] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [2fca3a0f] Running /usr/bin/env git remote set-url origin git@github.com:loic-carbonne/symfony-demo.git as ubuntu@62.4.19.91
+ DEBUG [2fca3a0f] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git remote set-url origin git@github.com:loic-carbonne/symfony-demo.git )
+  INFO [2fca3a0f] Finished in 0.023 seconds with exit status 0 (successful).
+  INFO [af8f21d8] Running /usr/bin/env git remote update --prune as ubuntu@62.4.19.91
+ DEBUG [af8f21d8] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git remote update --prune )
+ DEBUG [af8f21d8] 	Fetching origin
+  INFO [af8f21d8] Finished in 1.385 seconds with exit status 0 (successful).
+ DEBUG [775a0c39] Running if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [775a0c39] Command: if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi
+ DEBUG [775a0c39] Finished in 0.017 seconds with exit status 0 (successful).
+  INFO [da71d91c] Running /usr/bin/env mkdir -p /var/www/symfony-demo/releases/20170801203204 as ubuntu@62.4.19.91
+ DEBUG [da71d91c] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env mkdir -p /var/www/symfony-demo/releases/20170801203204 )
+  INFO [da71d91c] Finished in 0.018 seconds with exit status 0 (successful).
+  INFO [1d750a11] Running /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/symfony-demo/releases/20170801203204 as ubuntu@62.4.19.91
+ DEBUG [1d750a11] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git archive master | /usr/bin/env tar -x -f - -C /var/www/symfony-demo/releases/20170801203204 )
+  INFO [1d750a11] Finished in 0.067 seconds with exit status 0 (successful).
+ DEBUG [dc0665e5] Running if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [dc0665e5] Command: if test ! -d /var/www/symfony-demo/repo; then echo "Directory does not exist '/var/www/symfony-demo/repo'" 1>&2; false; fi
+ DEBUG [dc0665e5] Finished in 0.024 seconds with exit status 0 (successful).
+ DEBUG [75714910] Running /usr/bin/env git rev-list --max-count=1 master as ubuntu@62.4.19.91
+ DEBUG [75714910] Command: cd /var/www/symfony-demo/repo && ( export GIT_ASKPASS="/bin/echo" GIT_SSH="/tmp/git-ssh-symfony-demo-production-.sh" ; /usr/bin/env git rev-list --max-count=1 master )
+ DEBUG [75714910] 	d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63
+ DEBUG [75714910] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG [fdad5a9c] Running if test ! -d /var/www/symfony-demo/releases/20170801203204; then echo "Directory does not exist '/var/www/symfony-demo/releases/20170801203204'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [fdad5a9c] Command: if test ! -d /var/www/symfony-demo/releases/20170801203204; then echo "Directory does not exist '/var/www/symfony-demo/releases/20170801203204'" 1>&2; false; fi
+ DEBUG [fdad5a9c] Finished in 0.019 seconds with exit status 0 (successful).
+  INFO [2bedff78] Running /usr/bin/env echo "d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63" >> REVISION as ubuntu@62.4.19.91
+ DEBUG [2bedff78] Command: cd /var/www/symfony-demo/releases/20170801203204 && /usr/bin/env echo "d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63" >> REVISION
+  INFO [2bedff78] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [b034af9f] Running /usr/bin/env ln -s /var/www/symfony-demo/releases/20170801203204 /var/www/symfony-demo/releases/current as ubuntu@62.4.19.91
+ DEBUG [b034af9f] Command: /usr/bin/env ln -s /var/www/symfony-demo/releases/20170801203204 /var/www/symfony-demo/releases/current
+  INFO [b034af9f] Finished in 0.015 seconds with exit status 0 (successful).
+  INFO [cba3c4be] Running /usr/bin/env mv /var/www/symfony-demo/releases/current /var/www/symfony-demo as ubuntu@62.4.19.91
+ DEBUG [cba3c4be] Command: /usr/bin/env mv /var/www/symfony-demo/releases/current /var/www/symfony-demo
+  INFO [cba3c4be] Finished in 0.020 seconds with exit status 0 (successful).
+ DEBUG [49c04ad5] Running /usr/bin/env ls -x /var/www/symfony-demo/releases as ubuntu@62.4.19.91
+ DEBUG [49c04ad5] Command: /usr/bin/env ls -x /var/www/symfony-demo/releases
+ DEBUG [49c04ad5] 	20170801203055	20170801203204
+ DEBUG [49c04ad5] Finished in 0.017 seconds with exit status 0 (successful).
+ DEBUG [9889a9c8] Running if test ! -d /var/www/symfony-demo/releases; then echo "Directory does not exist '/var/www/symfony-demo/releases'" 1>&2; false; fi as ubuntu@62.4.19.91
+ DEBUG [9889a9c8] Command: if test ! -d /var/www/symfony-demo/releases; then echo "Directory does not exist '/var/www/symfony-demo/releases'" 1>&2; false; fi
+ DEBUG [9889a9c8] Finished in 0.013 seconds with exit status 0 (successful).
+  INFO [b705c92e] Running /usr/bin/env echo "Branch master (at d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63) deployed as release 20170801203204 by " >> /var/www/symfony-demo/revisions.log as ubuntu@62.4.19.91
+ DEBUG [b705c92e] Command: cd /var/www/symfony-demo/releases && /usr/bin/env echo "Branch master (at d1ad7f5a6bd4a9f20492c82aa452525ffc4d4b63) deployed as release 20170801203204 by " >> /var/www/symfony-demo/revisions.log
+  INFO [b705c92e] Finished in 0.016 seconds with exit status 0 (successful).
